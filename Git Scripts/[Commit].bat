@@ -34,11 +34,11 @@ goto validquestion
 :commit
 echo.
 echo ----------------------------LOG----------------------------
-git log -n 4
+git log -n 3
 echo --------------------------COMMIT---------------------------
 git commit -m "%message%"
 echo ----------------------------LOG----------------------------
-git log -n 4
+git log -n 3
 echo -----------------------------------------------------------
 
 :pushquestion
